@@ -7,6 +7,9 @@ body {
   padding: 0;
   height: 100%;
 }
+a {
+  text-decoration: none;
+}
 
 .movieWrap {
   display: flex;
@@ -29,4 +32,18 @@ body {
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
+}
+
+.movieWrap {
+  margin-top: 100px;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+  padding: 50px 0;
+  width: 100%;
 }

@@ -1,13 +1,3 @@
-.movies {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-
-  padding: 50px 0;
-  width: 100%;
-}
-
 .movies_movie {
   position: relative;
   padding: 20px;
@@ -20,6 +10,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+}
+.movies_movie a {
+  display: flex;
 }
 
 .movies_movie img {
