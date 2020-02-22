@@ -12,7 +12,7 @@ function App() {
       <Navigation />
 
       <div className="container">
-        <Route path="/" exact={true} component={Home} />
+        <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/movie/:id" component={Detail} />
       </div>

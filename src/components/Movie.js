@@ -28,7 +28,7 @@ function Movies({ id, year, title, poster, summary, genres }) {
               <li key={index}>{genre}</li>
             ))}
           </ul>
-          <h5 className="movie_summary">{summary.slice(0, 150)}...</h5>
+          <p className="movie_summary">{summary.slice(0, 150)}...</p>
         </div>
       </Link>
     </div>
